@@ -25,7 +25,7 @@ def input_to_index(input)
 end
 
 # This Method accepts the player's move
-def move(board, index, character)
+def move(board, index, character = "X")
   array[index]= character
 end
 
@@ -73,7 +73,7 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   if valid_move?(board, index)
-    move(board, index, character)
+    move(board, index)
     display_board(board)
   else
     turn(board)
