@@ -58,7 +58,14 @@ end
 
 # Returns the current player
 
-
+def current_player(board)
+  if turn_count(board).even? == true
+    return "X"
+  else
+    return "O"
+  end
+end
+end
 
 # Asks for user's input, makes valid moves and updates the board, or asks for new input if the move is invalid.
 def turn(board)
