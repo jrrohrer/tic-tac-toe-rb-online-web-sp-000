@@ -38,4 +38,3 @@ def position_taken?(array, index)
   end
   end
 end
-
