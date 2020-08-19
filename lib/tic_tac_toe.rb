@@ -65,8 +65,7 @@ def current_player(board)
     return "O"
   end
 end
-end
-end
+
 
 # Asks for user's input, makes valid moves and updates the board, or asks for new input if the move is invalid.
 def turn(board)
