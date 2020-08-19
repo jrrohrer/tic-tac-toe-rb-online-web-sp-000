@@ -9,3 +9,12 @@ WIN_COMBINATIONS = [
   [0,4,8], # top l to bottom r diagonal
   [2,4,6] # top r to bottom l diagonal
 ]
+
+# Displays the playing board
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
