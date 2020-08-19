@@ -25,7 +25,7 @@ def input_to_index(input)
 end
 
 # This Method accepts the player's move
-def move(board, index, character = "X")
+def move(board, index, character)
   array[index]= character
 end
 
