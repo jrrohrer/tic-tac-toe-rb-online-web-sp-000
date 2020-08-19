@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 ]
 
 # Displays the playing board
-def display_board(board)
+def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
