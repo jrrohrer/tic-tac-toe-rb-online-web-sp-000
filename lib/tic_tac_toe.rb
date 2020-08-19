@@ -39,7 +39,7 @@ def position_taken?(array, index)
   end
 end
 
-# Determines if a given move is valid 
+# Determines if a given move is valid
 def valid_move?(array, index)
   if index > 8
     return false
