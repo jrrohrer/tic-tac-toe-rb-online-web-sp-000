@@ -23,3 +23,19 @@ end
 def input_to_index(input)
   input.to_i - 1
 end
+
+# This Method accepts the player's move
+def move(array, index, character)
+  array[index]= character
+end
+
+# Determines if a position on the board is taken
+def position_taken?(array, index)
+  if array[index] == " " || array[index] == "" || array[index] == nil
+    return false
+  else if array[index] == "X" || array[index] == "O"
+    return true
+  end
+  end
+end
+
