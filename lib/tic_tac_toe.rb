@@ -66,6 +66,7 @@ def current_player(board)
   end
     puts "Turns played: #{counter}"
   end
+  end
 end
 
 # Asks for user's input, makes valid moves and updates the board, or asks for new input if the move is invalid.
