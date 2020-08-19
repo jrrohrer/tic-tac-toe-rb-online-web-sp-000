@@ -19,7 +19,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-# Converts the user's input to an array index 
-def input_to_index(input) 
+# Converts the user's input to an array index
+def input_to_index(input)
   input.to_i - 1
 end
